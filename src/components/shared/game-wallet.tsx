@@ -240,7 +240,7 @@ const Wallet = ({
             </div>
           </PopoverContent>
         </Popover>
-        {selectedToken === ALEO_TOKENS.LOOT && isClaimable && (
+        {selectedToken === ALEO_TOKENS.ALEO && isClaimable && (
           <>
             <TooltipProvider>
               <Tooltip>

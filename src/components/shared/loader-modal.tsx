@@ -1,4 +1,3 @@
-import { Loader } from '@/assets/gif';
 import { Typography } from '../ui/typography';
 import { Dialog, DialogContent, DialogClose } from '../ui/dialog';
 import { useTransaction } from '@/providers/TransactionProvider/transaction.provider';
@@ -23,7 +22,7 @@ const LoaderModal = () => {
               <XIcon className="h-6 w-6" />
             </button>
           </DialogClose>
-          <img src={Loader} alt="loader-gif" className="scale-125" />{' '}
+          <div className="h-7 w-7 animate-spin rounded-full border-2 border-white border-l-transparent" />
           <div className="flex flex-col items-center gap-4">
             {' '}
             <Typography className="text-center font-dm-sans font-bold leading-[20.83px] text-white">
